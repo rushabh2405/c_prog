@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+create_list	program-3.c	/^void create_list()$/;"	f
+data	program-2.c	/^int data;$/;"	m	struct:node	file:
+data	program-3.c	/^int data;$/;"	m	struct:node	file:
+delete_back	program-1.c	/^int delete_back(int a[])$/;"	f
+delete_front	program-1.c	/^int delete_front(int a[])$/;"	f
+display_list	program-3.c	/^void display_list()$/;"	f
+f	program-1.c	/^int r=-1,f=-1,size=5;$/;"	v
+insert_back	program-1.c	/^int insert_back(int a[],int data)$/;"	f
+insert_end	program-3.c	/^void insert_end()$/;"	f
+insert_front	program-1.c	/^int insert_front(int a[],int data)$/;"	f
+isfull	program-1.c	/^int isfull()$/;"	f
+main	1.c	/^int main()$/;"	f
+main	program-1.c	/^void main()$/;"	f
+main	program-2.c	/^void main()$/;"	f
+main	program-3.c	/^void main()$/;"	f
+next	program-2.c	/^struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	program-3.c	/^struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	program-2.c	/^struct node$/;"	s	file:
+node	program-3.c	/^struct node$/;"	s	file:
+r	program-1.c	/^int r=-1,f=-1,size=5;$/;"	v
+size	program-1.c	/^int r=-1,f=-1,size=5;$/;"	v
+start	program-2.c	/^struct node* start;$/;"	v	typeref:struct:node
+start	program-3.c	/^struct node* start;$/;"	v	typeref:struct:node

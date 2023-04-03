@@ -1,0 +1,12 @@
+src=Makefile
+
+rushabh_ip=10.126.60.158
+ankur_ip=10.126.60.134
+meet_ip=10.126.61.64
+dhrumil_ip=10.126.60.94
+
+all:
+	nc -N $(dhrumil_ip) 4444 < $(src)
+	nc -N $(ankur_ip) 4444 < $(src)
+	nc -N $(meet_ip) 4444 < $(src)
+	#nc -N $(rushabh_ip) 4444 < $(src)
